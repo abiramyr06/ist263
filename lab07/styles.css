@@ -1,0 +1,14 @@
+body {
+    background-color: #F8ECC9;
+    text-color: #000000;  
+}
+
+nav {background-color: #C44D58;}
+
+nav a {color: #EB9F9F}
+
+nav a:hover {background-color:#F1BBBA ;}
+
+nav {padding: 10px;}
+
+nav{margin-bottom: 30px;}

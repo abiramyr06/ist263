@@ -1,0 +1,26 @@
+body {
+    background-color: #F8ECC9;
+    text-color: #000000;  
+}
+
+nav {background-color: #C44D58;}
+
+nav a {color: #EB9F9F}
+
+nav a:hover {background-color:#F1BBBA ;}
+
+nav {padding: 10px;}
+
+nav{margin-bottom: 30px;}
+
+.motto {float:right;}
+.body {float: left; margin-right: 10px;}
+
+div {display: flex;}
+.plz div {padding: 20px;}
+.address, .links, .form, .map {margin: 20px;}
+.address {flex: 1;  background-color: #ffe4e1; border-radius: 1em;}
+.links {flex: 1; background-color: #ffe4e1; border-radius: 1em;}
+.links {display: flex; flex-direction: column;}
+.form {flex: 1; background-color: #ffe4e1; border-radius: 1em;}
+.map {flex: 1;background-color: #ffe4e1; border-radius: 1em; }

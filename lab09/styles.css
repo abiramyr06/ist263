@@ -1,0 +1,48 @@
+body {
+    background-color: #F8ECC9;
+    text-color: #000000;  
+}
+
+.body{max-width: 100%;}
+@media only screen and (max-width: 800px)
+
+nav {background-color: #C44D58;}
+
+nav a {color: #EB9F9F}
+
+nav a:hover {background-color:#F1BBBA ;}
+
+nav {padding: 10px;}
+
+nav{margin-bottom: 30px;}
+
+nav {display: block;}
+
+nav {display: flex;}
+
+.motto {float:right;}
+.body {float: left; margin-right: 10px;}
+
+.map-container {flex-wrap: wrap;}
+.form {flex-wrap: wrap;}
+
+
+@media screen and (max-width: 800px) {
+    nav {
+    flex-direction: column;
+    padding: 8px;
+    width: 100%;
+    display: block;
+    }
+}
+@media only screen and (max-width: 800px) {
+span {display: none;}
+}
+div {display: flex;}
+.plz div {padding: 20px;}
+.address, .links, .form, .map {margin: 20px;}
+.address {flex: 1;  background-color: #ffe4e1; border-radius: 1em;}
+.links {flex: 1; background-color: #ffe4e1; border-radius: 1em;}
+.links {display: flex; flex-direction: column;}
+.form {flex: 1; background-color: #ffe4e1; border-radius: 1em;}
+.map {flex: 1;background-color: #ffe4e1; border-radius: 1em; }
